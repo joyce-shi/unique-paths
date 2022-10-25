@@ -4,9 +4,7 @@ public:
         // 1. initialize 2D matrix
         int grid[n][m];
         
-        // 2. cover base cases
-        grid[0][0] = 0;
-        
+        // 2. cover base cases        
         for (int i = 0; i < n; ++i) {
             // a) top row initialization
             grid[i][0] = 1;
